@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 import moment from 'moment';
+import tz from 'moment-timezone';
 import numeral from 'numeral';
 
 const DEFAULT_DATE_TIMEZONE = "UTC",
